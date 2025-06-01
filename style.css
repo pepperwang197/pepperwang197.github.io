@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.guesses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    border-style: solid;
+    width:60px;
+    height:60px;
+    padding:10px;
+    margin:5px;
+}
+
+.black {
+    background-color: rgb(148, 148, 148);
+}
+
+.yellow {
+    background-color: rgb(247, 228, 58);
+}
+
+.green {
+    background-color: rgb(28, 209, 28);
+}
+
+.checked{
+    color:blueviolet
+}
